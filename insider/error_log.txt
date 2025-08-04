@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "C:\Users\Sena\Desktop\insider\tests\test_careers.py", line 26, in test_qa_jobs_filter
+    qa_jobs = careers_page.filter_jobs("Istanbul, Turkiye", "Quality Assurance")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sena\Desktop\insider\pages\careers_page.py", line 26, in filter_jobs
+    WebDriverWait(self.driver, 10).until(
+  File "C:\Users\Sena\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7a756e415+77285]
+	GetHandleVerifier [0x0x7ff7a756e470+77376]
+	(No symbol) [0x0x7ff7a7339a6a]
+	(No symbol) [0x0x7ff7a7390406]
+	(No symbol) [0x0x7ff7a73906bc]
+	(No symbol) [0x0x7ff7a73e3ac7]
+	(No symbol) [0x0x7ff7a73b864f]
+	(No symbol) [0x0x7ff7a73e087f]
+	(No symbol) [0x0x7ff7a73b83e3]
+	(No symbol) [0x0x7ff7a7381521]
+	(No symbol) [0x0x7ff7a73822b3]
+	GetHandleVerifier [0x0x7ff7a7851efd+3107021]
+	GetHandleVerifier [0x0x7ff7a784c29d+3083373]
+	GetHandleVerifier [0x0x7ff7a786bedd+3213485]
+	GetHandleVerifier [0x0x7ff7a758884e+184862]
+	GetHandleVerifier [0x0x7ff7a759055f+216879]
+	GetHandleVerifier [0x0x7ff7a7577084+113236]
+	GetHandleVerifier [0x0x7ff7a7577239+113673]
+	GetHandleVerifier [0x0x7ff7a755e298+11368]
+	BaseThreadInitThunk [0x0x7ffc71d97374+20]
+	RtlUserThreadStart [0x0x7ffc7231cc91+33]
+
